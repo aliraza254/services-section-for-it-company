@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="187" height="207.145" viewBox="0 0 187 207.145">
+  <defs>
+    <filter id="Icon_Hex" x="0" y="0" width="187" height="207.145" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_Hex)">
+    <path id="Icon_Hex-2" data-name="Icon Hex" d="M145.5,174h-97L0,87,48.5,0h97L194,87Z" transform="translate(180.5 6.57) rotate(90)" fill="none" stroke="#979797" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

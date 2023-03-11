@@ -1,0 +1,333 @@
+section.wts-services {
+    opacity: 1;
+    margin-bottom: 120px
+}
+
+/* section.services .widget-title .container {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+section.services .services-description {
+    text-align: right;
+    padding-left: 43%;
+    margin-bottom: 60px;
+    font-size: 28px;
+    line-height: 34px
+}
+
+section.services .services-description p {
+    margin-bottom: 15px;
+    margin-top: 0
+}
+
+section.services .services-description span {
+    font-size: 18px;
+    line-height: 22px
+}
+
+section.services .services-description img {
+    width: 290px
+} */
+
+@media screen and (max-width:1024px) {
+    /* section.services .services-description {
+        padding-left: 0;
+        text-align: center
+    } */
+
+    section.wts-services #wts-services-grid {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: stretch;
+        list-style: none;
+        margin: 0 10px;
+        padding: 0
+    }
+
+    section.wts-services #wts-services-grid .worx-subtitle,
+    section.wts-services #wts-services-grid li.holow {
+        display: none
+    }
+
+    section.wts-services #wts-services-grid li {
+        width: 33.33%;
+        padding: 10px
+    }
+}
+
+@media screen and (max-width:1024px) and (max-width:768px) {
+    section.wts-services #wts-services-grid li {
+        width: 50%
+    }
+}
+
+@media screen and (max-width:1024px) {
+    section.wts-services #wts-services-grid .hexagon {
+        height: 100%
+    }
+
+    section.wts-services #wts-services-grid a {
+        background: #273A79;
+        color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+        text-decoration: none;
+        align-items: center;
+        height: 100%
+    }
+
+    section.wts-services #wts-services-grid a:hover {
+        background: #334ca0
+    }
+
+    section.wts-services #wts-services-grid svg {
+        max-width: 50px;
+        max-height: 50px;
+        width: 100%
+    }
+
+    section.wts-services #wts-services-grid svg .f0,
+    section.wts-services #wts-services-grid svg .f1 {
+        fill: #fff
+    }
+
+    section.wts-services #wts-services-grid svg .f2 {
+        fill: #273A79
+    }
+
+    section.wts-services #wts-services-grid svg .s1 {
+        stroke: #fff
+    }
+
+    section.wts-services #wts-services-grid svg path,
+    section.wts-services #wts-services-grid svg rect {
+        fill: #fff
+    }
+
+    section.wts-services #wts-services-grid .worx-subtitle,
+    section.wts-services #wts-services-grid .worx-title {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #fff
+    }
+
+    section.wts-services #wts-services-grid .worx-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        width: 22%
+    }
+}
+
+@media screen and (max-width:1024px) and (max-width:520px) {
+    section.wts-services #wts-services-grid .worx-title {
+        display: none
+    }
+
+    section.wts-services #wts-services-grid .worx-subtitle {
+        display: block
+    }
+}
+
+@media screen and (min-width:1025px) {
+    /* .shareThis h3 {
+        float: left
+    } */
+
+    section.wts-services .wts-services-gridHolder {
+        height: 632px;
+        overflow: hidden
+    }
+
+    section.wts-services #wts-services-grid {
+        position: relative;
+        max-width: 630px;
+        transform: rotate(-90deg) translateX(478px) translateY(-22px);
+        margin: auto;
+        padding: 0
+    }
+
+    section.wts-services #wts-services-grid li {
+        list-style-type: none;
+        position: relative;
+        float: left;
+        width: 27.85714285714286%;
+        padding: 0 0 32.16760145166612%;
+        transform: rotate(-60deg) skewY(30deg);
+        overflow: hidden;
+        visibility: hidden
+    }
+
+    section.wts-services #wts-services-grid li:nth-child(2),
+    section.wts-services #wts-services-grid li:nth-child(3n+2) {
+        margin: 0 1%
+    }
+
+    section.wts-services #wts-services-grid li:nth-child(6n+4),
+    section.wts-services #wts-services-grid li:nth-child(6n+5),
+    section.wts-services #wts-services-grid li:nth-child(6n+6) {
+        margin-top: -6.9285714285%;
+        margin-bottom: -6.9285714285%;
+        transform: translateX(50%) rotate(-60deg) skewY(30deg)
+    }
+
+    section.wts-services #wts-services-grid li:nth-child(6n+4) {
+        margin-left: .5%
+    }
+
+    section.wts-services .worx-subtitle,
+    section.wts-services .worx-title {
+        position: absolute;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400;
+        -webkit-touch-callout: none
+    }
+
+    section.wts-services #wts-services-grid li * {
+        visibility: visible
+    }
+
+    section.wts-services .clear:after {
+        content: "";
+        display: block;
+        clear: both
+    }
+
+    section.wts-services #wts-services-grid li .hexagon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: skewY(-30deg) rotate(60deg);
+        overflow: hidden;
+        transition: background-color .2s
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.holder-grey {
+        background: #f5f5f5
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item {
+        cursor: pointer
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item a {
+        color: #9B9B9B
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg {
+        transition: all .2s
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg .f0 {
+        fill: none
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg .f1 {
+        fill: #273A79
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg .f2 {
+        fill: #fff
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg .s1 {
+        stroke: #273A79
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg path,
+    section.wts-services #wts-services-grid li .hexagon.solution-item .worx-icon svg rect {
+        fill: #273A79
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(/IconHex.svg);
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: 106% 106%
+    }
+
+    section.wts-services #wts-services-grid li .hexagon.solution-item:hover::before {
+        background: 0 0
+    }
+
+    section.wts-services .worx-icon {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+        transform: rotate(90deg)
+    }
+
+    section.wts-services .worx-icon svg {
+        max-width: 90px;
+        max-height: 80px;
+        width: 100%
+    }
+
+    section.wts-services .worx-subtitle {
+        bottom: 30px;
+        transform: rotate(30deg);
+        width: 60%;
+        font-size: 18px;
+        line-height: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+
+    section.wts-services .worx-title {
+        background: rgba(39, 58, 121, .9);
+        transform: rotate(90deg);
+        font-size: 22px;
+        line-height: 27px;
+        color: #fff;
+        opacity: 0;
+        transition: opacity .2s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        top: 12px;
+        left: -18px;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 180px;
+        z-index: 1;
+        padding: 20px;
+        box-sizing: border-box
+    }
+
+    section.wts-services .worx-title span {
+        transform: translateY(20px);
+        transition: all .5s
+    }
+
+    section.wts-services .worx-title:hover {
+        opacity: 1
+    }
+
+    section.wts-services .worx-title:hover span {
+        transform: translateY(0)
+    }
+}
